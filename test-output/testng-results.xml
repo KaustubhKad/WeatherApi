@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-04T17:40:30 IST" name="Default suite" finished-at="2022-02-04T17:40:36 IST" duration-ms="6614">
+    <groups>
+    </groups>
+    <test started-at="2022-02-04T17:40:30 IST" name="Default test" finished-at="2022-02-04T17:40:36 IST" duration-ms="6614">
+      <class name="weather.test">
+        <test-method signature="testGet()[pri:1, instance:weather.test@505fc5a4]" started-at="2022-02-04T17:40:30 IST" name="testGet" finished-at="2022-02-04T17:40:32 IST" duration-ms="2186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method signature="testpost1()[pri:2, instance:weather.test@505fc5a4]" started-at="2022-02-04T17:40:32 IST" name="testpost1" finished-at="2022-02-04T17:40:33 IST" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpost1 -->
+        <test-method signature="testpost2()[pri:3, instance:weather.test@505fc5a4]" started-at="2022-02-04T17:40:33 IST" name="testpost2" finished-at="2022-02-04T17:40:34 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpost2 -->
+        <test-method signature="testGet2()[pri:4, instance:weather.test@505fc5a4]" started-at="2022-02-04T17:40:34 IST" name="testGet2" finished-at="2022-02-04T17:40:34 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet2 -->
+        <test-method signature="deleteWeatherRecord()[pri:5, instance:weather.test@505fc5a4]" started-at="2022-02-04T17:40:34 IST" name="deleteWeatherRecord" finished-at="2022-02-04T17:40:35 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteWeatherRecord -->
+        <test-method signature="deleteWeatherRecord2()[pri:6, instance:weather.test@505fc5a4]" started-at="2022-02-04T17:40:35 IST" name="deleteWeatherRecord2" finished-at="2022-02-04T17:40:36 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteWeatherRecord2 -->
+        <test-method signature="deleteWeatherRecord3()[pri:7, instance:weather.test@505fc5a4]" started-at="2022-02-04T17:40:36 IST" name="deleteWeatherRecord3" finished-at="2022-02-04T17:40:36 IST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteWeatherRecord3 -->
+      </class> <!-- weather.test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
