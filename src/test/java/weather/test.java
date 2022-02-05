@@ -76,7 +76,7 @@ public class test  {
 			  httpRequest.body(requestParams.toJSONString());
 			  
 			  
-			  Response response=httpRequest.when().queryParam("appid","e802e4596667921c25b31d351d88b661").post("stations");
+			  Response response=httpRequest.when().queryParam("appid","e802").post("stations");
 		
 			  
 			  
@@ -125,7 +125,7 @@ public class test  {
 			  httpRequest.body(requestParams.toJSONString());
 			  
 			  
-			  Response response=httpRequest.when().queryParam("appid","e802e4596667921c25b31d351d88b661").post("stations");
+			  Response response=httpRequest.when().queryParam("appid","e802").post("stations");
 		
 			  
 			  
@@ -160,7 +160,7 @@ public class test  {
 				
 				  
 				  
-				  Response response=httpRequest.queryParam("appid","e802e4596667921c25b31d351d88b661").get("stations");
+				  Response response=httpRequest.queryParam("appid","e802").get("stations");
 			
 				  
 				  
@@ -195,7 +195,7 @@ public class test  {
 				httpRequest.header("Content-Type", "application/json");	
 				
 			    // Delete the request and check the response
-				 Response response=httpRequest.queryParam("appid","e802e4596667921c25b31d351d88b661").delete("stations/"+city1);		
+				 Response response=httpRequest.queryParam("appid","e802").delete("stations/"+city1);		
 				
 				int statusCode = response.getStatusCode();
 				System.out.println(response.asString());
@@ -223,7 +223,7 @@ public class test  {
 				httpRequest.header("Content-Type", "application/json");	
 				
 			    // Delete the request and check the response
-				Response response=httpRequest.queryParam("appid","e802e4596667921c25b31d351d88b661").delete("stations/"+city2);		
+				Response response=httpRequest.queryParam("appid","e802").delete("stations/"+city2);		
 					
 				int statusCode = response.getStatusCode();
 				System.out.println(response.asString());
@@ -246,7 +246,7 @@ public class test  {
 				httpRequest.header("Content-Type", "application/json");	
 				
 			     // Delete the request and check the response
-				Response response=httpRequest.queryParam("appid","e802e4596667921c25b31d351d88b661").delete("stations/"+city1);		
+				Response response=httpRequest.queryParam("appid","e802").delete("stations/"+city1);		
 					
 				int statusCode = response.getStatusCode();
 				System.out.println(response.asString());
